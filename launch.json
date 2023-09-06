@@ -1,8 +1,9 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/",
-      "destination": "/blog.html"
+      "destination": "/blog.html",
+      "statusCode": 308
     }
   ]
 }
